@@ -2,6 +2,7 @@ import React from 'react'
 import './index.css'
 import data from './assets/data.js'
 import Card from './components/card.jsx'
+import Header from './components/header.jsx'
 
 function App() {
 
@@ -16,7 +17,7 @@ function App() {
 
   return (
     <div className="App">
-        {/* <Header/> */}
+        <Header/>
         <section className='card-container'>
           {cards}
         </section>
