@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+}
+html {
+    font-size: 10px;
+}
+
+/* typography */
+p {
+    font-size: 1.8rem;
+}
+h2 {
+    font-size: 2.5rem;
+}
+
+/* general */
+.card {
+    display: flex;
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+.card-img {
+}
+.card-info {
+}
