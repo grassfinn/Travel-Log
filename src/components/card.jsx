@@ -5,7 +5,7 @@ function Card(props) {
 
     return (
         <div className="card">
-            <img className="card-img" src={`src/assets/images/${props.img}`} alt={`Picture of ${props.title}`} />
+            <img className="card-img" src={`../src/assets/images/${props.img}`} alt={`Picture of ${props.title}`} />
             <div className="card-info">
                 <span className="card-location"></span>
                 <span className="card-map"></span>
