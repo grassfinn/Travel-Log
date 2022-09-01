@@ -1,5 +1,5 @@
 import React from 'react'
-import './index.css'
+import '/src/index.css'
 import data from '/src/assets/data.js'
 import Card from '/src/components/card.jsx'
 import Header from '/src/components/header.jsx'
