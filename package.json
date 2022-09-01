@@ -1,12 +1,12 @@
 {
-  "homepage": "http://grassfinn.github.io/Travel-Log-React-App",
+  "homepage": "https://grassfinn.github.io/Travel-Log-React-App",
   "name": "vite-project",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
