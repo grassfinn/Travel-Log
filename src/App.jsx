@@ -6,10 +6,13 @@ import Header from '/src/components/header.jsx'
 
 function App() {
 
+  // map through data and return a card for each array item
   const cards = data.map( item => {
     return (
       <Card
+      // props
         key= {item.id}
+        // spreads all the props such as item.img etc....
         {...item}
       />
     )
