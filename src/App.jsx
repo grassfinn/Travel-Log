@@ -1,8 +1,8 @@
 import React from 'react'
-import '/src/index.css'
-import data from '/src/assets/data.js'
-import Card from '/src/components/card.jsx'
-import Header from '/src/components/header.jsx'
+import './index.css'
+import data from './assets/data.js'
+import Card from './components/card.jsx'
+import Header from './components/header.jsx'
 
 function App() {
 
